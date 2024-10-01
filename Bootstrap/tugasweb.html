@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Monda:wght@400..700&display=swap');
+      body {
+        background-color: aliceblue;
+      }
+
+      h2 {
+        font-family: Bebas Neue;
+        font-size: 50px;
+      }
+
+      h5 {
+        font-family: monda;
+        font-size: 35px;
+        color: goldenrod;
+        text-align: center;
+        font-weight: 1000;
+              
+      }
+      
+
+      p {
+        font-family: Poppins;
+        font-size: 20px;
+        margin-top: 20px;
+      }
+
+      .card-text {
+        margin-top: 30px;
+        text-align: center;
+        margin-bottom: 40px;
+        
+      }
+
+      .nav-link {
+        font-family: Poppins;
+        font-size: 18px;
+        
+      
+      }
+
+      .btn {
+        font-family: poppins;
+        font-size: 19px;
+      }
+
+      .card-deck {
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+        
+
+      }
+
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+
+      
+    </style>
+    </head>
+
+<body>
+    <section>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a style="font-family: Bebas Neue; font-size: 40px; color: darkblue;" class="navbar-brand" href="#"><b>TECH.DEVS</b></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://www.gamelab.id/news/2640-15-bahasa-pemrograman-populer--pemula-wajib-tahu">Code Language</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                        Daftar Tugas
+                      </a>
+                      <div class="dropdown-menu">
+                        <a class="dropdown-item" href="https://reaganbrian.github.io/Reagan-Brian.github.io/">Tugas 1</a>
+                        <a class="dropdown-item" href="https://reaganbrian.github.io/tugas2.html">Tugas 2</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://pddikti.kemdikbud.go.id/detail-mahasiswa/gz9NU_MCnV1zDnSdzXW3un6B2ejuBw8xU3tlc3pvqYo95AtYfgdfRCRKk5zFOCDb5ppCig==">Nama : Reagan Brian Siahaan <br/> NIM : 241402099</a>
+                      </div>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled">About</a>
+                    </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">🔍</button>
+                  </form>
+                </div>
+              </nav>
+            <div class="row">
+                <div class="col align-self-center">
+                    <h1 style="font-family: Lobster Two;font-size: 70px; color: goldenrod;"><b>Hello world !</b></h1><h2>Selamat datang di TECH.DEVS</h2>
+                    <p style="font-family: Kanit; font-size: 20px; text-align: justify;">
+                        Temukan panduan pembelajaran pemrograman sesuai learning path dan passion Anda !
+                    </p>
+                    <a class="btn btn-success" href="https://roadmap.sh/" role="button">Mulai sekarang</a>
+                </div>
+                <div class="col">
+                    <img src="poto.png" alt="" width="700">
+                </div>
+                <div>
+                  
+               
+                <div class="card-deck">
+                  <div class="card" style="width: 1200px;">
+                    <img src="web.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Web <br/> Development <br/> (Front End-BackEnd Developer)</h5>
+                      <p class="card-text">Learning path ini memungkinkan kamu mempelajari bagaimana cara membangun, mendesain, dan mengelola suatu website, Mulai dari tampilan hingga databasenya. <br/> Materi pendukung meliputi HTML, CSS, Javascript, PHP, MYSQL dan lain - lain.</p>
+                      <a href="https://roadmap.sh/full-stack" class="btn btn-primary">Lihat Learning Path ini</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="ai.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Data Science, Artificial Intelligence, and Machine Learning</h5>
+                      <p class="card-text">Learning path ini memungkinkan kamu untuk mempelajari pengelolaan dan distribusi data, konsep kecerdasan buatan dan  memungkinkan komputer dapat melakukan tugas tanpa instruksi.
+                        <br/>Materi pendukung meliputi Python, R, TensorFlow dan lain - lain.</p>
+                      <a href="https://roadmap.sh/ai-data-scientist" class="btn btn-primary">Lihat Learning Path ini</a>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="game.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Game Design and Development</h5>
+                      <p class="card-text">Learning path ini memungkinkan kamu untuk mempelajari bagaimana  membuat sebuah game mulai dari merancang dan mendesain algoritma pada game hingga mendesain animasi serta character pada game. 
+                        <br/> Materi pendukung meliputi pygame, Unity, Unreal, Blender dan lain sebagainya.</p>
+                      <a href="https://roadmap.sh/game-developer" class="btn btn-primary">Lihat Learning Path ini</a>
+                    </div>
+                  </div>
+                </div>               
+            </div>
+        </div>
+    </section>
+    <script src="JQuery.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
